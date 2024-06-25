@@ -1,0 +1,76 @@
+Name: gymnasium
+Version: 0.29.1
+Summary: A standard API for reinforcement learning and a diverse set of reference environments (formerly Gym).
+Home-page: https://farama.org
+Author: 
+Author-email: Farama Foundation <contact@farama.org>
+License: MIT License
+Location: C:\Users\renat\AppData\Local\Programs\Python\Python312\Lib\site-packages
+Requires: cloudpickle, farama-notifications, numpy, typing-extensions
+Required-by: Shimmy, stable_baselines3
+---
+Name: Shimmy
+Version: 1.3.0
+Summary: An API conversion tool providing Gymnasium and PettingZoo bindings for popular external reinforcement learning environments.
+Home-page: https://github.com/Farama-Foundation/Shimmy
+Author: Farama Foundation
+Author-email: contact@farama.org
+License:
+Location: C:\Users\renat\AppData\Local\Programs\Python\Python312\Lib\site-packages
+Requires: gymnasium, numpy
+Required-by:
+---
+Name: stable_baselines3
+Version: 2.3.2
+Summary: Pytorch version of Stable Baselines, implementations of reinforcement learning algorithms.
+Home-page: https://github.com/DLR-RM/stable-baselines3
+Author: Antonin Raffin
+Author-email: antonin.raffin@dlr.de
+License: MIT
+Location: C:\Users\renat\AppData\Local\Programs\Python\Python312\Lib\site-packages
+Requires: cloudpickle, gymnasium, matplotlib, numpy, pandas, torch
+Required-by:
+---
+Name: setuptools
+Version: 70.0.0
+Summary: Easily download, build, install, upgrade, and uninstall Python packages
+Home-page: https://github.com/pypa/setuptools
+Author: Python Packaging Authority
+Author-email: distutils-sig@python.org
+License:
+Location: C:\Users\renat\AppData\Local\Programs\Python\Python312\Lib\site-packages
+Requires:
+Required-by: tensorboard, tensorflow-intel
+---
+Name: keras
+Version: 3.4.0
+Summary: Multi-backend Keras.
+Home-page: https://github.com/keras-team/keras
+Author: Keras team
+Author-email: keras-users@googlegroups.com
+License: Apache License 2.0
+Location: C:\Users\renat\AppData\Local\Programs\Python\Python312\Lib\site-packages
+Requires: absl-py, h5py, ml-dtypes, namex, numpy, optree, packaging, rich
+Required-by: tensorflow-intel
+---
+Name: opencv-python
+Version: 4.10.0.84
+Summary: Wrapper package for OpenCV python bindings.
+Home-page: https://github.com/opencv/opencv-python
+Author:
+Author-email:
+License: Apache 2.0
+Location: C:\Users\renat\AppData\Local\Programs\Python\Python312\Lib\site-packages
+Requires: numpy
+Required-by:
+---
+Name: wheel
+Version: 0.43.0
+Summary: A built-package format for Python
+Home-page:
+Author:
+Author-email: Daniel Holth <dholth@fastmail.fm>
+License:
+Location: C:\Users\renat\AppData\Local\Programs\Python\Python312\Lib\site-packages
+Requires:
+Required-by: astunparse
