@@ -74,3 +74,14 @@ License:
 Location: C:\Users\renat\AppData\Local\Programs\Python\Python312\Lib\site-packages
 Requires:
 Required-by: astunparse
+---
+Name: cloudpickle
+Version: 3.0.0
+Summary: Pickler class to extend the standard pickle.Pickler functionality
+Home-page: https://github.com/cloudpipe/cloudpickle
+Author: The cloudpickle developer team
+Author-email: cloudpipe@googlegroups.com
+License: BSD-3-Clause
+Location: C:\Users\renat\AppData\Local\Programs\Python\Python312\Lib\site-packages
+Requires: 
+Required-by: gymnasium, stable_baselines3
